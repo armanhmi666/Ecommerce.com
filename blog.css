@@ -1,0 +1,46 @@
+
+#hero1 {
+    background-image: url(t2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: top 8% right 0%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 80px;
+  }
+  #hero1 h3 {
+    color: orange;
+    padding-bottom: 15px;
+  }
+  #hero1 h1 {
+    color: black;
+  }
+  #hero1 p {
+    color: orangered;
+    padding-bottom: 10px;
+  }
+  #hero1 > button {
+    background-image: linear-gradient(
+      to right,
+      rgba(250, 125, 91, 0.596),
+      rgba(131, 141, 252, 0.023)
+    );
+    font-size: 17px;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: 0.4s ease;
+    border-radius: 50px;
+  }
+  #hero1 button:hover {
+    border: 2px solid rgb(250, 175, 175);
+    /* box-shadow: 5px 8px 10px rgba(236, 155, 80, 0.8); */
+    
+    transform: translateY(1rem);
+
+    
+  }
